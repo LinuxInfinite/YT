@@ -1,0 +1,16 @@
+Wine Sauber auf Debian de- und installieren.
+
+De-installation:
+
+wine --version
+
+sudo rm -rf /etc/apt/keyrings oder sudo rm /etc/apt/keyrings/winehq-archive.key
+
+sudo rm /etc/apt/sources.list.d/winehq-trixie.sources
+
+sudo apt remove --purge wine*
+sudo apt remove --purge winetricks
+sudo apt autoremove
+
+rm ~/.wine
+
