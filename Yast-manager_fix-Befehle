@@ -1,0 +1,14 @@
+Der Fehler:
+"Internal error. Please report a bug report with logs. 
+Run save_y2logs to get complete logs. Caller: internal:/usr/lib64/ruby/3.4.0/rubygems/core_ext/kernel_require.rb:136:in 'Kernel#require'
+Details: Failed to load Module 'PackageSlideShow' due to: Failed to load Module 'Packages' due to: cannot load such file -- solv"
+
+Befehle aus dem Video:
+
+sudo zypper search ruby
+sudo zypper info ruby
+sudo zypper remove yast2-ruby-bindings
+sudo zypper remove ruby
+sudo zypper install ruby (1 Auswählen)
+sudo zypper install pattern:yast2_basis
+sudo zypper install patttern:yast2_desktop
