@@ -1,10 +1,11 @@
-Flatpak auf Fedora installieren Video
+Flatpak auf Fedora installieren Video :https://youtu.be/5X2IB4aNDOo
 
 Befehle 
 sudo dnf install flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak --version
 flatpak remote
+flatpak list
 flatpak run
 flatpak update
 flatpak installl
